@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-<link href="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="container-home">
+<h1>Cadastro de pets</h1>
+
+<form>
+    <div class="input-container">
+        <label for="foto">Foto</label>
+        <input id="foto" placeholder="URL da sua foto"/>
+    </div>
+    <div class="input-container">
+        <label for="titulo">Título</label>
+        <input id="titulo" placeholder="Titulo:"/>
+    </div>
+    <div class="input-container">
+        <label for="autor">Autor</label>
+        <input id="autor" placeholder="Quem escreve:"/>
+    </div>
+    <div class="input-container">
+        <label for="categoria">Escolha uma categoria</label>
+        <input id="categoria" placeholder="Escolha a categoria:"/>
+    </div>
+    <div class="input-container">
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao"></textarea>
+    </div>
+
+    <button class="button-submit" type="submit">Salvar</button>
+
+
+
+</form>
+
+
+    </div>
     
 </body>
 </html>
